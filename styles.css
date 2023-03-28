@@ -1,0 +1,33 @@
+.gallery {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: content-box;
+}
+.gallery img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+body{
+    background-color: #111111;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
