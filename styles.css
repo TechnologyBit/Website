@@ -3,7 +3,7 @@
     padding-right: 5%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: black;
+    background-color: #b2b2b2;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
